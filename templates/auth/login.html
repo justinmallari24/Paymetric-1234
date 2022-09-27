@@ -1,0 +1,44 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<body style="background-color:antiquewhite;">
+<head>
+    <title>Login</title>
+    <style>
+h2{
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 100px;
+}
+h3{
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 50px;
+}
+a {
+    display: block;
+    width: 100px;
+    margin:auto;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+    </style>
+
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+<h2>
+    Login
+</h2>
+<form method="post" id='login' action="">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+    </form>
+</form>
+
+<h3>Don't have account yet?</h3>
+<a href="/register">Sign up</a>
+</body>
+</html>

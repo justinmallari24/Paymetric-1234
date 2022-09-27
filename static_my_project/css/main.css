@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+.body {
+	background-color: darksalmon;
+}
+.paymetric
+{
+text-align:center;
+vertical-align:text-top;
+font-size:128px;
+font-family:Abhaya Libre ExtraBold;
+line-height:auto;
+color:#FFFFFF;
+}
+
+.startup
+{
+	text-align:center;
+	vertical-align:text text-top;
+	font-size: 32px;
+	font-family: "BankGothic Md BT";
+	margin-top: 400px;
+	line-height: normal;
+	float: center;
+
+}
+.primary_header {
+	width: 100%;
+	background-color: #B1A6AF;
+	padding-top: px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #2C9AB7;
+}
+
+.container {
+	width: fit-content;
+	margin-left: auto;
+	vertical-align: bottom;
+	align-items: center;
+	float: center;
+	background-color: ##BBC594;
+}
+
+.text_column
+
+.button {
+	width: 100px;
+	margin-top: 300px;
+	margin-top: 300px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 48%;
+}
+.text_column {
+	width: 90%;
+	margin: 0;
+	padding: 20px;
+}
+.intro .column p {
+	width: 80%;
+}
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  margin: 0px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    margin: 0px;
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  margin: 0px;
+  background-color: #B660CD;
+  color: white;
+}
+
+.contactme {
+	text-align: center;
+	line-height: auto;
+}
+
+#form1 {
+	text-align: center;
+
+}
+
+#login {
+	text-align: center;
+}
+
+.logout2 {
+	text-align: right;
+	float: right;
+}
+
+@media (max-width: 400px) {
+.paymetric {
+    text-align: center;
+    vertical-align: text-top;
+    font-size: 64px;
+    font-family: Abhaya Libre ExtraBold;
+    line-height: auto;
+    color: #FFFFFF;
+}
+.primary_header {
+    width: 100%;
+    background-color: #B1A6AF;
+    padding-top: px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2C9AB7;
+    }
+
+.topnav a {
+	width: fit-content;
+  margin: 0px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+	width: fit-content;
+    margin: 0px;
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+
+	width: fit-content;
+  margin: 0px;
+  background-color: ##B660CD;
+  color: white;
+}
