@@ -4,6 +4,11 @@
     <list default="true" id="a6ff6300-b5f1-4009-82ee-f481de351025" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/list_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/list_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +86,7 @@
       <workItem from="1664284705286" duration="4132000" />
       <workItem from="1664290493418" duration="7530000" />
       <workItem from="1664298435506" duration="106000" />
-      <workItem from="1664301299278" duration="256000" />
+      <workItem from="1664301299278" duration="562000" />
     </task>
     <servers />
   </component>
