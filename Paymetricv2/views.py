@@ -32,7 +32,7 @@ def list_user(request):
     context = {
         'model':model
     }
-    return render(request, 'auth/list_user.html', context)
+    return render(request, 'admin/list_user.html', context)
 
 def update(request, id):
     user = User.objects.get(id=id)

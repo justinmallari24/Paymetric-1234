@@ -1,17 +1,21 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <body style="background-color:antiquewhite;">
+<link rel="stylesheet" type="text/css" href="{% static 'css/nav.css' %}">
+<head>
 <style>
 h2{
     text-align: center;
     font-family: Bebas Neue;
     font-size: 100px;
-}
 </style>
-
+</head>
 <body>
 <h2>Register</h2>
-
+<button class="button1">
+    <a href="../home">Return to home</a>
+</button>
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
