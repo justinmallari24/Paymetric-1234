@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ff6300-b5f1-4009-82ee-f481de351025" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
@@ -9,6 +10,11 @@
       <change beforePath="$PROJECT_DIR$/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/home_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/auth/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/auth/update.html" afterDir="false" />
+>>>>>>> origin/master
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +43,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+>>>>>>> origin/master
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -89,7 +99,11 @@
       <workItem from="1664298435506" duration="106000" />
       <workItem from="1664301299278" duration="562000" />
       <workItem from="1664302209246" duration="330000" />
+<<<<<<< HEAD
       <workItem from="1664334160052" duration="1356000" />
+=======
+      <workItem from="1664331825008" duration="1248000" />
+>>>>>>> origin/master
     </task>
     <servers />
   </component>
