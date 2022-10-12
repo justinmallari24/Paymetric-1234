@@ -12,6 +12,7 @@
 </head>
 <body>
 {% include 'navbar.html' %}
+    Title: <a href="{% url 'detailed' object.id %}">{detailed.hmtl}</a>
 <h2 class="title">User List</h2>
 <div class="table1">
 <table align="center" class="userlist">
@@ -46,4 +47,3 @@
 </div>
 </body>
 </html>
-

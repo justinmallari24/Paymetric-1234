@@ -55,3 +55,4 @@ def updaterecord(request, id):
     user.save()
     return redirect('list_user')
 
+

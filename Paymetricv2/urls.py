@@ -17,11 +17,13 @@ urlpatterns = [
     path('login/', login_page, name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name="auth/logout.html"), name='logout'),
     path('admin/', admin.site.urls),
-
+    path('detailed/<int:id>', ProductDetailView.as_view(), name='detailed' ),
     path('users/', list_user, name='list_user'),
     path('update/updaterecord/<int:id>', updaterecord, name='updaterecord'),
     path('update/<int:id>', update, name='update'),
     path('delete/<int:id>', delete, name='delete'),
+
+
 
 ]
 
